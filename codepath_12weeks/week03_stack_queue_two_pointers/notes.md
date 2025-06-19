@@ -25,5 +25,25 @@ Clean a string by removing any pairs of adjascent characters where one is the lo
 - At the end, join all characters in the stack into a single string and return it.
 
 **What I Learned:**
-- Alwasy check if the stack is not empty befoe accessing `stack[-1]` to avoid `IndexError`
+- Alwasy check if the stack is not empty before accessing `stack[-1]` to avoid `IndexError`
 - Use `"".join(stack)` to combine characters without spaces between them
+
+# Set 1 Problem 7:#
+**Description:##
+Given two strings, determine whether they are equal after typed into a text editor. `#` characters represent a backspace, deleting character just before it. 
+
+**Approach:**
+- Create a helper function `def backspacing(str)` that returns the final version of a string after simulating typing into a text editor.
+- Initialize a stack, loop through the string
+    - If the char is `#` and if stack is not empty, pop the last element
+    - If the char is not `#`, append  it to the stack
+- Use `"".join(stack)` to combine characters in the stack into a single string and return it. 
+- In the main function
+    - Compare weither `backspacing(draf1)` is equal to `backspacing(draf2)
+    - If they are equal, return True; otherwise, return False 
+
+**What I Learned:**
+- Breaking the problem into small, testable helpful functions like `backspacing()` to improve clarity. 
+- Alwasy check `if stack:` before popping to avoid IndexError.
+
+
