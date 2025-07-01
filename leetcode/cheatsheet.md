@@ -2,14 +2,14 @@
 **`seperator".join()` method can use with a string or a list**
 
 **List comprehension**
-`expression` for `element` in `iterable` if `condition`
+- `expression` for `element` in `iterable` if `condition`
 
 **Check if the `char` is alphanumeric, return True/False**
-.isalphnum
+- .isalphnum
 
 **Return a string with lowercased version**
-.lower() 
+- .lower() 
 
 **Reverse**
-s[::-1]
+- s = s[::-1]
 
