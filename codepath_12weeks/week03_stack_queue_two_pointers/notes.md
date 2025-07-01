@@ -12,7 +12,7 @@ Reverse the character in each word of a post, preserving the word order and spac
 - Using a nested loop to append each character individually ends up saving letters, not whole words  
 - Slicing with `w[::-1]` looks simple, but it performs internal looping under the hood to reverse the string efficiently  
 
-# Set 1 Problem 5: Content Cleaner # 
+# Set 1 Problem 5: Content Cleaner# 
 **Description:**
 Clean a string by removing any pairs of adjascent characters where one is the lowercase of the letter and the other one is the uppercase version. Return the clean string.
 
