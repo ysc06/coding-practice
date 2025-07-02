@@ -16,7 +16,7 @@ I initially tried a one-sum approach that only accumulated values from index 0.T
 - If `prefix_sum - k` is in the dictionary, a subarray ending at the current index sums to `k`.
 - Subarrays can start from **any index**, not just from the beginning.
 
-#LC 125. Valid Palindrome# 
+# LC 125. Valid Palindrome #
 **Easy**
 **Two Pointers**
 **Thought Process:** 
@@ -33,7 +33,7 @@ Initial approach used string preprocessing → two pointers, but that caused O(n
 - Two pointers avoid extra space — O(1) space.
 - Step by step filters: the outer `while l < r` drives the process; the inner `while` skips invalid chars
 
-#LC 20. Valid Parenthesis#
+# LC 20. Valid Parenthesis #
 **Easy**
 **Stack**
 **Thought Process:**
@@ -52,7 +52,7 @@ At first, I didn’t clearly separate the logic for open/close/invalid character
 - return not stack returns True if stack is empty
 - Separating logic into clear branches improves readability and avoids logic errors
 
-# LC 155. Min Stack#
+# LC 155. Min Stack #
 **Mid**
 **Stack**
 **Thought process:**
